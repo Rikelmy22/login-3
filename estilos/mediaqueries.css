@@ -38,14 +38,14 @@ Desktops:992px a 1200px
     }
 
     main > section#login > div#imagem {
-        float: left;
+        float: right;
         height: 100%;
         width: 45%;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     main > section#login > div#formulario {
-        float: right;
+        float: left;
         height: 100%;
         width: 52%;
     }
