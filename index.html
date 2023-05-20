@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login 03</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/Paginaprincipal.css" media="all ">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
 </head>
@@ -21,6 +22,22 @@
             <p>
                 Seja bem vindo(a).Preencha com seus dados para ter acesso a sua conta e fazer alterações ems seu perfil.
             </p>
+            <form action="destinatario.php" method="post">
+                <div class="campo">
+                    <label for="ie-mail">
+                        <span class="material-icons">person</span>
+                    </label>
+                    <input type="email" name="email" id="ie-mail" placeholder="seu e-mail" maxlength="30" required>
+                </div>
+                <div class="campo">
+                    <label for="isen">
+                        <span class="material-icons">key</span>
+                    </label>
+                    <input type="password" name="password" id="isen" placeholder="sua senha" minlength="8" maxlength="15" required>
+                </div>
+                <input type="submit" value="ENTRAR">
+                <a href="apagar.com.br">Esqueci a minha senha <span class="material-icons">mail</span></a>
+            </form>
         </div>
     </section>
    </main>
